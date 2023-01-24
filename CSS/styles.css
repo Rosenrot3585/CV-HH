@@ -78,7 +78,7 @@ html {
     font-weight: 800;
     font-size: 4em;
     color: rgb(126, 18, 154);
-    text-shadow: 0 0 #E8E8E8;
+    text-shadow: 0 0 8px #e8e8e8;;
 }
 
 .cv-datosPrincipales-nombre a:active,
@@ -137,7 +137,6 @@ a:link {
 
 .updated-date {
     color: #E8E8E8;
-    font-size: 2em;
     text-align: right;
     text-indent: 0.5em;
 }
@@ -211,7 +210,7 @@ a:link {
     right: -4em;
     width: 41em;
     height: 25em;
-    z-index: 0;
+    z-index: -1;
     visibility: hidden;
 }
 
@@ -294,6 +293,7 @@ a:link {
 .formularioDeContacto {
     display: flex;
     flex-direction: column;
+    margin-bottom: 2em;
 }
 
 /* Style inputs, select elements and textareas */
@@ -418,17 +418,16 @@ input[type=reset] {
 .cv-footer div {
     display: flex;
     flex-direction: row;
-    font-size: 0.2em;
+    font-size: 1em;
     display: flex;
     flex-direction: row;
-    padding: 0 2em 2em 2em;
 }
 
 .creadoPor {
     width: auto;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 760px) {
     .resume {
         font-family: 'Montserrat', sans-serif;
         background-color: #272727;
